@@ -1,0 +1,52 @@
+{
+    "configurations": [
+      {
+        "type": "java",
+        "name": "CodeLens (Launch) - DuplicateWords",
+        "request": "launch",
+        "mainClass": "DuplicateWords"
+      },
+      {
+        "type": "java",
+        "name": "CodeLens (Launch) - StringTokens",
+        "request": "launch",
+        "mainClass": "StringTokens"
+      },
+      {
+        "type": "java",
+        "name": "CodeLens (Launch) - StringLength",
+        "request": "launch",
+        "mainClass": "StringLength"
+      },
+      {
+        "type": "java",
+        "name": "CodeLens (Launch) - Palindrome",
+        "request": "launch",
+        "mainClass": "Palindrome"
+      },
+      {
+        "type": "java",
+        "name": "CodeLens (Launch) - QuantitiesUnits",
+        "request": "launch",
+        "mainClass": "QuantitiesUnits"
+      },
+      {
+        "type": "java",
+        "name": "CodeLens (Launch) - Roundup",
+        "request": "launch",
+        "mainClass": "Roundup"
+      },
+      {
+        "type": "java",
+        "name": "CodeLens (Launch) - Threads",
+        "request": "launch",
+        "mainClass": "Threads"
+      },
+      {
+        "type": "java",
+        "name": "CodeLens (Launch) - NonTriplicate",
+        "request": "launch",
+        "mainClass": "NonTriplicate"
+      }
+    ]
+}
