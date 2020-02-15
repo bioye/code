@@ -1,6 +1,7 @@
 // IMPORT LIBRARY PACKAGES NEEDED BY YOUR PROGRAM
 import java.util.List;
 import java.util.ArrayList;
+import java.util.Arrays;
 // SOME CLASSES WITHIN A PACKAGE MAY BE RESTRICTED
 // DEFINE ANY CLASS AND METHOD NEEDED
 // CLASS BEGINS, THIS CLASS IS REQUIRED
@@ -13,10 +14,7 @@ public class CompeteCells
     // WRITE YOUR CODE HERE
         for(int i=0;i<days;i++){
             //make a copy of states before updates
-            int[]statesBeforeUpdate=new int[8];
-            for(int k=0;k<states.length;k++){
-                statesBeforeUpdate[k]=states[k];
-            }
+            int[]statesBeforeUpdate=Arrays.copyOf(states, states.length);
             //update each cell
             for(int j=0;j<statesBeforeUpdate.length;j++){
                 //if j=0;
@@ -42,5 +40,13 @@ public class CompeteCells
         }
         return stateList;
     }
-  // METHOD SIGNATURE ENDS
+    // METHOD SIGNATURE ENDS
+
+    public static void main(String[] args) {
+      //tests;
+      int[] input0 = new int[]{0,1,0,1,0,1,0,1};
+      Integer[] expected0 = new Integer[]{1,0,0,0,0,0,0,1};
+      CompeteCells test0=new CompeteCells();
+      assert test0.cellCompete(input0, 1)==Arrays.asList(expected0);
+    }
 }

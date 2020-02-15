@@ -2,6 +2,13 @@
     "configurations": [
       {
         "type": "java",
+        "name": "CodeLens (Launch) - CompeteCells",
+        "request": "launch",
+        "mainClass": "CompeteCells",
+        "projectName": "code_cf042c39"
+      },
+      {
+        "type": "java",
         "name": "CodeLens (Launch) - DuplicateWords",
         "request": "launch",
         "mainClass": "DuplicateWords"

@@ -11,7 +11,8 @@ public class Roundup{
     }
 
     public float getRounded(float number){
-        if(number % interval)
+      //fix below later
+        //if(number % interval)
         return 0;
     }
 
