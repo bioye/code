@@ -2,6 +2,13 @@
     "configurations": [
       {
         "type": "java",
+        "name": "CodeLens (Launch) - TopReviews",
+        "request": "launch",
+        "mainClass": "TopReviews",
+        "projectName": "code_cf042c39"
+      },
+      {
+        "type": "java",
         "name": "CodeLens (Launch) - CompeteCells",
         "request": "launch",
         "mainClass": "CompeteCells",
