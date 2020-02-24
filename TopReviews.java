@@ -1,5 +1,6 @@
 import java.util.List;
 import java.util.ArrayList;
+import java.util.Collections;
 import java.util.HashMap;
 import java.util.LinkedHashMap;
 import java.util.Map;
@@ -53,7 +54,7 @@ public class TopReviews {
     }
     //after looping
     final Map<String, Integer> sortedCompetitorFreqs = comparatorFreqs.entrySet().stream()
-                                .sorted(Map.Entry.comparingByValue()).collect(Collectors.toMap(
+                                .sorted(Collections.reverseOrder(Map.Entry.comparingByValue())).collect(Collectors.toMap(
                                   Map.Entry::getKey, Map.Entry::getValue, (e1,e2) -> e1, LinkedHashMap::new));
       //sort competitors in desc based on freq
       //return top n competitors
