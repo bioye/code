@@ -2,6 +2,24 @@
     "configurations": [
       {
         "type": "java",
+        "name": "CodeLens (Launch) - NewHash",
+        "request": "launch",
+        "mainClass": "NewHash"
+      },
+      {
+        "type": "java",
+        "name": "CodeLens (Launch) - Hash",
+        "request": "launch",
+        "mainClass": "Hash"
+      },
+      {
+        "type": "java",
+        "name": "CodeLens (Launch) - HelloWorld",
+        "request": "launch",
+        "mainClass": "HelloWorld"
+      },
+      {
+        "type": "java",
         "name": "CodeLens (Launch) - TopReviews",
         "request": "launch",
         "mainClass": "TopReviews",
