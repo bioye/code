@@ -28,10 +28,10 @@ public class RotateMatrix {
     for(int i=0;i<n;i++){
       offset++;
       for(int j=0;j<n;j++){
-        rotatedMatrix[i][j]=squareMatrix[j][n-i-1];
+        //rotatedMatrix[i][j]=squareMatrix[j][n-i-1];
       }    
     }  
-    return rotatedMatrix;
+    return null;//ßrotatedMatrix;
   }
   
   static int convertToLinear(int i, int j, int n){

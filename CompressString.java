@@ -1,8 +1,8 @@
 public class CompressString {
 
   public static void main(String[] args) {
-    System.out.println(convertToCompressed("aabcccccaaa"));
-    System.out.println(compressBad("aabcccccaaa"));
+    //System.out.println(convertToCompressed("aabcccccaaa"));
+    //System.out.println(compressBad("aabcccccaaa"));
   }
 
   static String compressBad(String str){

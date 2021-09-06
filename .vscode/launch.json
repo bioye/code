@@ -2,6 +2,34 @@
     "configurations": [
       {
         "type": "java",
+        "name": "CodeLens (Launch) - Permutations",
+        "request": "launch",
+        "mainClass": "Permutations",
+        "projectName": "code_cf042c39"
+      },
+      {
+        "type": "java",
+        "name": "CodeLens (Launch) - ListOfMaps",
+        "request": "launch",
+        "mainClass": "ListOfMaps",
+        "projectName": "code_cf042c39"
+      },
+      {
+        "type": "java",
+        "name": "CodeLens (Launch) - Tictactoe",
+        "request": "launch",
+        "mainClass": "Tictactoe",
+        "projectName": "code_cf042c39"
+      },
+      {
+        "type": "java",
+        "name": "CodeLens (Launch) - Andela",
+        "request": "launch",
+        "mainClass": "Andela",
+        "projectName": "code_cf042c39"
+      },
+      {
+        "type": "java",
         "name": "CodeLens (Launch) - NewHash",
         "request": "launch",
         "mainClass": "NewHash"
